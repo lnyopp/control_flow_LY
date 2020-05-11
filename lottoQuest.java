@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lottoQuest {
+public class LottoQuest {
 
     static String petName;
     static int petAge;
@@ -55,8 +55,8 @@ public class lottoQuest {
             System.out.println("Please enter a valid whole number between 1 and 50");
         }
 
-        input.close();
-        magicBall.generateNum();
+        // input.close();
+        MagicBall.generateNum();
     }
 
 }

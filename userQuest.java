@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class userQuest {
+public class UserQuest {
     public static void userQuestions() {
         Scanner input = new Scanner(System.in);
 
@@ -17,7 +17,7 @@ public class userQuest {
 
         if (ans.equals("YES") || ans.equals("Y")) {
             System.out.print("Excellent, let's continue!");
-            lottoQuest.getLotteryNum();
+            LottoQuest.getLotteryNum();
 
         } else {
             System.out.println("Please return later to complete the survey");
